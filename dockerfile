@@ -1,4 +1,5 @@
 #https://medium.com/@hmajid2301/running-expo-react-native-in-docker-ff9c4f2a4388
+#https://rapidapi.com/blog/create-react-native-app/
 FROM node:12
 
 EXPOSE 19000
