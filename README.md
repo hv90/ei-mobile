@@ -18,8 +18,10 @@ IP Adress so it can work properly
 <h3>error: cannot connect to daemon</h3>
 Check if the adb server is up and running - open the terminal then type: 
 <h4>Linux</h4>
+
 `netstat -ano | grep -i "5037"`
 <h4>Windows</h4>
+
 `netstat -ano | findstr "5037"`
 
-In some cases you might use `adb kill-server` for restarting it.
+In some cases you might use `adb kill-server` wait the server get down and restart it with `adb start-server`.
