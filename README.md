@@ -4,9 +4,11 @@ unofficial pilot for dockerized 🐳 react native 📶 streaming app based on es
 # 🔗 <a href="https://trello.com/b/f4bSU8vh/react-native-docker-streaming-esporte-interativo">Trello</a>
 
 # 🎯 Requirements
-docker
-docker-compose
-android-tools-adb
+<ul>
+  <li>docker</li>
+  <li>docker-compose</li>
+  <li>android-tools-adb</li>
+</ul>
 
 # 🚧 Development
 Clone this project: 
@@ -15,8 +17,7 @@ Clone this project:
 
 Command:
 
-`docker-compose up` and the environment will be set up
-for developing.
+`docker-compose up` 
 
 ✔️ Hot Reload is ok
 
