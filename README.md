@@ -16,7 +16,7 @@ IP Adress so it can work properly
 
 # ⚙️ Troubleshooting
 <h3>error: cannot connect to daemon</h3>
-check if the adb server is up and running:
+Check if the adb server is up and running - open the terminal then type: 
 <h4>Linux</h4>
 `netstat -ano | grep -i "5037"`
 <h4>Windows</h4>
