@@ -11,4 +11,7 @@ that the server is up and running. In some cases you might use `adb kill-server`
 Once the server is ok, simply command `docker-compose up` and the environment will be setted up
 for developing.
 
+Also, the dockerfile must have the environment variable REACT_NATIVE_PACKAGER_HOSTNAME filled
+with you localhost IP Adress so it can work correctly
+
 ⚠️ NOTE: Hot Reload was not tested yet
