@@ -8,7 +8,7 @@ For a while it is necessary to have adb locally installed so you may run first `
 and check  with ` netstat -ano | grep -i "5037"`(linux) or `netstat -ano | findstr "5037"`(windows)
 that the server is up and running. In some cases you might use `adb kill-server` for restarting it.
 
-Once the server is ok, simply command `docker-compose up` and the environment will be setted up
+Once the server is ok, simply command `docker-compose up` and the environment will be set up
 for developing.
 
 Also, the dockerfile must have the environment variable REACT_NATIVE_PACKAGER_HOSTNAME filled
