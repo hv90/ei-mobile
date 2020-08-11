@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+    expo_android:
+        container_name: expo-android
+        build:
+            context: .
+            dockerfile: dockerfile
+        ports: 
+            - '19000:19000'
+            - '19001:19001'
+        volumes:
+            - '.:/app'
+        env_file: .env
